@@ -44,7 +44,7 @@ GEM_API_KEY=your_google_gemini_api_key_here
 
 1. **Run the application**
 ```bash
-python app.py
+python main.py
 ```
 
 2. **Access the interface**
@@ -64,6 +64,7 @@ einstein-chat/
 ├── main.py              # Main application file
 ├── .env               # Environment variables (API keys)
 ├── README.md          # This file
+├── Albert.jpg          # Image for Albert Einstein
 └── requirements.txt   # Python dependencies
 ```
 
