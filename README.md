@@ -30,7 +30,7 @@ cd einstein-chat
 
 2. **Install dependencies**
 ```bash
-pip install langchain-google-genai langchain-core gradio python-dotenv
+pip install -r requirements.txt
 ```
 
 3. **Set up environment variables**
@@ -104,11 +104,6 @@ temperature=0.5  # Range: 0.0 (deterministic) to 1.0 (creative)
 - Check your `.env` file has the correct `GEM_API_KEY`
 - Verify your Google Cloud API key is active
 - Ensure you have Gemini API access enabled
-
-### Dependencies issues?
-```bash
-pip install --upgrade langchain-google-genai langchain-core gradio
-```
 
 ## Contributing
 
