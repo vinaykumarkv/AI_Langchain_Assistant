@@ -1,11 +1,9 @@
-from altair.vegalite.v6.theme import theme
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 import os
-from numpy.ma.core import append
 import gradio as gr
 
 load_dotenv()
